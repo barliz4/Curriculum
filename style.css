@@ -1,0 +1,155 @@
+/* === Estilos generales === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #000000de;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* === Columna izquierda === */
+.sidebar {
+  width: 30%;
+  background: #000000;
+  padding: 20px;
+  border-right: 1px solid #eeeeee;
+}
+
+.profile-photo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.profile-photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0008ff;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.sidebar .subtitle {
+  font-size: 14px;
+  color: #ffffff;   /*// Color letra, columna izquierda */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact p, .contact a {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #fffdfd;   /*// Color letra, columna izquierda (Contacto) */
+  text-decoration: none;
+}
+
+/* === Habilidades === */
+.skills h3 {
+  margin: 20px 0 10px;
+}
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.skill-list span {
+  background: #ffe6e6;
+  color: #0066ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+/* === Columna derecha === */
+.content {
+  width: 70%;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.header h1 {
+  font-size: 26px;
+  color: #111111;
+}
+.header p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  padding: 10px 18px;
+  background: #0056d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.btn:hover {
+  background: #0041a8;
+}
+.btn-secondary {
+  background: #777;
+}
+.btn-secondary:hover {
+  background: #555;
+}
+
+/* === Secciones === */
+section {
+  margin-bottom: 25px;
+}
+section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* === Proyectos === */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+.card {
+  background: #000000cd;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+.card h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+.card p {
+  font-size: 13px;
+  color: #ffffff9d;
+}
+
