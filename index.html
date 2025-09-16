@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Santiago Barliza Lizcano - Portafolio</title>
+  <link rel="icon" href="Imagenes/Icon_Foto.png" />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="cv">
     
     <!-- Columna izquierda (barra lateral) -->
     <aside class="sidebar">
@@ -50,9 +51,9 @@
       <!-- Encabezado -->
       <div class="header">
         <h1>Santiago Barliza Lizcano</h1>
-        <p> Enfoque integral en backend y frontend, orientado a aportar soluciones empresariales escalables y de alto impacto. </p>
+        <p class="info"> Enfoque integral en backend y frontend, orientado a aportar soluciones empresariales escalables y de alto impacto. </p>
         <div class="botones">
-          <a href="cv_santiago_barliza.pdf" download class="btn">Descargar PDF</a>
+          <a href="Software Barliza..pdf" download class="btn">Descargar PDF</a>
           <a href="mailto:santiagobarliza6@gmail.com" class="btn btn-secundario">Contactar</a>
         </div>
       </div>
@@ -106,5 +107,7 @@
 
     </main>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/animations.js"></script>
 </body>
 </html>
