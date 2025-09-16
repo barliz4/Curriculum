@@ -6,9 +6,15 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+:root {
+  --color-primario: #ffffff;
+  --color-secundario: #000000;
+  --color-terciario: #0015ff;
+}
+
 body {
-  background: #000000de;
-  color: #333;
+  background: var(--color-secundario);
+  color: var(--color-secundario);
   line-height: 1.6;
 }
 
@@ -16,66 +22,72 @@ body {
   display: flex;
   max-width: 1100px;
   margin: 40px auto;
-  background: white;
+  background: var(--color-primario);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 26, 255, 0.501);
 }
-
+  
 /* === Columna izquierda === */
 .sidebar {
   width: 30%;
-  background: #000000;
+  background: var(--color-secundario);
   padding: 20px;
   border-right: 1px solid #eeeeee;
 }
 
-.profile-photo {
+.foto_perfil {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
-.profile-photo img {
+.foto_perfil img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #0008ff;
+  border: 3px solid var(--color-terciario);
 }
 
-.sidebar h2 {
-  font-size: 20px;
-  margin-bottom: 5px;
+.sidebar h2 {     /* H2, Santiago Barliza */
+  font-size: 24px;
+  margin-bottom: 35px;
   text-align: center;
+  color: var(--color-primario);
 }
-.sidebar .subtitle {
+.sidebar .subtitle {  /* Subtitulos */
   font-size: 14px;
-  color: #ffffff;   /*// Color letra, columna izquierda */
+  color: var(--color-primario);   
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 38px;
 }
 
-.contact p, .contact a {
-  font-size: 14px;
-  margin: 5px 0;
-  color: #fffdfd;   /*// Color letra, columna izquierda (Contacto) */
+.contact p, .contact a {  /* Color letra (Contacto) */
+  font-size: 16px;
+  margin: 9px 0;
+  color: var(--color-primario);   
   text-decoration: none;
 }
 
 /* === Habilidades === */
 .skills h3 {
-  margin: 20px 0 10px;
+  margin: 50px 0 10px;
+  color: var(--color-primario);
+  text-align: center;
 }
-.skill-list {
+.lista-skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 9px;
+  justify-content: center;
+  margin-top: 30px;
 }
-.skill-list span {
-  background: #ffe6e6;
-  color: #0066ff;
+.lista-skills span {
+  background: var(--color-primario);
+  color: var(--color-terciario);
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 13px;
+  font-weight: 500;
 }
 
 /* === Columna derecha === */
@@ -88,47 +100,62 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 8px;
 }
+
 .header h1 {
   font-size: 26px;
-  color: #111111;
+  color: var(--color-secundario);
 }
-.header p {
-  font-size: 14px;
-  color: #555;
+
+.header p { /* Desarrollador Web */
+  font-size: 15px;
+  color: #373434;
   margin-top: 4px;
+  font-weight: 490;
 }
-.buttons {
+
+
+.botones {
   display: flex;
   gap: 10px;
 }
+
 .btn {
   padding: 10px 18px;
   background: #0056d6;
   color: white;
   text-decoration: none;
-  border-radius: 6px;
-  font-size: 14px;
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
 }
+
 .btn:hover {
   background: #0041a8;
 }
-.btn-secondary {
-  background: #777;
+
+.btn-secundario {
+  background: #000000c2;
+  display: flex;
+  align-items: center;
 }
-.btn-secondary:hover {
-  background: #555;
+
+.btn-secundario:hover {
+  background: var(--color-secundario);
 }
 
 /* === Secciones === */
 section {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--color-secundario);
 }
 section h2 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #222;
+  text-align: center;
 }
 
 /* === Proyectos === */
@@ -138,9 +165,9 @@ section h2 {
   gap: 15px;
 }
 .card {
-  background: #000000cd;
+  background: var(--color-secundario);
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid #e0e0e0;
 }
 .card h3 {
@@ -150,6 +177,6 @@ section h2 {
 }
 .card p {
   font-size: 13px;
-  color: #ffffff9d;
+  color: var(--color-primario);
 }
 
