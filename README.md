@@ -17,7 +17,7 @@ Me apasiona crear interfaces intuitivas, optimizar procesos y aprender constante
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 🚀 Tecnologías utilizadas.
 - **HTML5** → estructura y organización del contenido.  
 - **CSS3** → diseño, estilos y experiencia visual moderna.  
 - **Diseño responsivo** → adaptado para distintos dispositivos.  
