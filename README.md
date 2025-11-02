@@ -7,7 +7,7 @@ Este proyecto combina **HTML y CSS** para presentar mi experiencia y aspiracione
 (En desarrollo)
 
 ---
-
+ 
 ## Sobre mí
 Soy **Desarrollador de Software en formación**, con interés en **backend, frontend y soluciones empresariales**.  
 Me apasiona crear interfaces intuitivas, optimizar procesos y aprender constantemente nuevas tecnologías.
