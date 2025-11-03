@@ -3,7 +3,7 @@
 Bienvenido a mi portafolio en línea, diseñado como una **hoja de vida interactiva** que refleja mi perfil, habilidades y proyectos en desarrollo de software.  
 Este proyecto combina **HTML y CSS** para presentar mi experiencia y aspiraciones profesionales de manera clara, organizada y atractiva.  
 
-🔗 **Ver Demo en Vivo:** [Curriculum Web](https://barliz4.github.io/Curriculum/) 
+🔗 **Ver Demo en Vivo:** [Curriculum Web](https://barliz4.github.io/Curriculum/)   
 (En desarrollo)
 
 ---
