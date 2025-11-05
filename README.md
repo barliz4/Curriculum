@@ -5,7 +5,7 @@ Este proyecto combina **HTML y CSS** para presentar mi experiencia y aspiracione
 
 🔗 **Ver Demo en Vivo:** [Curriculum Web](https://barliz4.github.io/Curriculum/)   
 (En desarrollo)
-
+                                 
 ---
  
 ## Sobre mí
